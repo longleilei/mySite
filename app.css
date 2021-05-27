@@ -1,0 +1,68 @@
+*, 
+*:before, 
+*:after{
+	box-sizing: inherit;
+}
+p{/* исправлено */
+	margin: 0;
+}
+html{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	background-color: white; 
+	line-height: 1; 
+	text-rendering: optimizeLegibility;
+	text-decoration-skip: objects;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialized; 
+	-webkit-tap-highlight-color: transparent;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.main-container{width:100%;height:100%}.main-container .menu{width:600px;height:100px;padding:3rem;margin-left:45%}.main-container .menu ul{display:flex;flex-direction:row;justify-content:space-between}.main-container .menu ul li{font-family:"Crimson Text",serif;font-size:25px}.main-container .menu ul li a{color:#000;text-decoration:none}.main-container .menu ul li a:hover{color:#000;text-decoration:underline}.main-container .hello-header{width:700px;height:500px;font-family:"Crimson Text",serif;font-size:25px;text-align:center;text-decoration:none;margin:auto;padding-top:100px}.main-container .hello-header .nice{color:#99f;font-weight:bold}.main-container .hello-header .name{font-size:80px;padding:3rem}.main-container .hello-header .dream{color:#99f;font-weight:bold;font-size:30px}.main-container .intro{display:flex;flex-direction:row;justify-content:space-between;padding:5rem}.main-container .intro.small{display:none}.main-container .intro .left img{width:450px;height:550px}.main-container .intro .right{padding-top:5rem;padding-left:3rem}.main-container .intro .right .about-me{font-family:"Montserrat",sans-serif;font-size:50px;font-weight:bold;padding-bottom:2rem}.main-container .intro .right .short-description{font-family:"Montserrat",sans-serif;color:#a4a4c1;line-height:2rem}.main-container .intro .right .data{display:flex;flex-direction:row;justify-content:space-between;line-height:3rem;font-size:20px}.main-container .intro .right .data .data-left{font-weight:bold}.main-container .intro .right .data .data-right{color:#a4a4c1}.main-container .resume{display:flex;flex-direction:row;justify-content:space-between}.main-container .resume .resume-nav{position:fixed;top:0;left:3rem;right:0;z-index:999;width:10%;visibility:hidden;transition:background 250ms ease-in}.main-container .resume .resume-nav.visible{visibility:visible}.main-container .resume .resume-nav .resume-nav-title a{text-decoration:none;color:#99f;font-family:"Crimson Text",serif;font-size:30px;font-weight:bold;line-height:2em}.main-container .resume .resume-nav .resume-nav-title.visible-now a{color:black;font-style:italic}.main-container .resume .resume-main{font-family:"Montserrat",sans-serif;font-size:20px;line-height:2em;padding-left:7rem;width:85%}.main-container .resume .resume-main .resume-main-title{font-size:40px;font-weight:bold}.main-container .resume .resume-main .edu{display:flex;flex-direction:column}.main-container .resume .resume-main .edu .edu-container-main-info{display:flex;flex-direction:row;justify-content:space-between;width:100%;padding-top:3rem;padding-right:5rem}.main-container .resume .resume-main .edu .edu-container-main-info .circle-container{width:10%}.main-container .resume .resume-main .edu .edu-container-main-info .circle-container .circle{background-color:#add8e6;height:65px;width:65px;border-radius:50%;vertical-align:middle;line-height:75px;text-align:center;margin-right:3rem}.main-container .resume .resume-main .edu .edu-container-main-info .uni-info{display:flex;flex-direction:column;font-family:"Montserrat",sans-serif}.main-container .resume .resume-main .edu .edu-container-main-info .uni-info .years{font-weight:bold}.main-container .resume .resume-main .edu .edu-container-main-info .uni-info .degree{font-style:italic}.main-container .resume .resume-main .edu .edu-container-main-info .uni-info .university-title{color:grey}.main-container .resume .resume-main .edu .edu-container-main-info .uni-info .uni-description{padding-top:2rem;font-size:18px}.main-container .resume .resume-main .separation-line{background-color:#a4a4c1;width:80%;height:1px;margin:2rem}.main-container .resume .resume-main .other-skills{margin-right:3rem}.main-container .resume .resume-main .other-skills .other-skills-title{font-family:"Montserrat",sans-serif;font-size:30px;text-align:center}.main-container .resume .resume-main .other-skills .progress-title{font-family:"Montserrat",sans-serif;font-size:20px;text-align:center;padding-bottom:1rem;padding-top:1rem}.main-container .resume .resume-main .other-skills .progressBar{position:relative;width:80%;height:50px;background-color:#cce6ff;margin-left:5rem}.main-container .resume .resume-main .other-skills #barStatus-photoshop{width:10%;height:100%;position:absolute;transition:width 1s}.main-container .resume .resume-main .other-skills #barStatus-photoshop.hover-now{width:40%;background-color:#ff4dd2}.main-container .resume .resume-main .other-skills #barStatus-buffer{width:10%;height:100%;position:absolute;transition:width 1s}.main-container .resume .resume-main .other-skills #barStatus-buffer.hover-now{width:80%;background-color:#ffff1a}.main-container .resume .resume-main .other-skills #barStatus-writing{width:10%;height:100%;position:absolute;transition:width 1s}.main-container .resume .resume-main .other-skills #barStatus-writing.hover-now{width:90%;background-color:#06f}.main-container .resume .resume-main .other-skills #barStatus-chinese{width:10%;height:100%;position:absolute;transition:width 1s}.main-container .resume .resume-main .other-skills #barStatus-chinese.hover-now{width:70%;background-color:red}.main-container .resume .contact-me{padding-top:8em}.main-container .resume .contact-me .contact-me-title{font-family:"Montserrat",sans-serif;font-size:40px;font-weight:bold;text-align:center;margin-bottom:40px}.main-container .resume .contact-me .contact-me-caption{font-family:"Montserrat",sans-serif;color:grey;font-size:20px;text-align:center;line-height:40px;padding-left:50px;padding-right:50px}.main-container .resume .contact-me .card-container{display:flex;flex-direction:row;justify-content:space-evenly;width:100%;height:100%;padding-top:40px}.main-container .resume .contact-me .card-container .card-1,.main-container .resume .contact-me .card-container .card-2,.main-container .resume .contact-me .card-container .card-3,.main-container .resume .contact-me .card-container .card-4{display:flex;flex-direction:column;width:200px;height:200px;border:1px solid black;box-shadow:10px 10px 5px grey}.main-container .resume .contact-me .card-container .card-1 .contact-circle,.main-container .resume .contact-me .card-container .card-2 .contact-circle,.main-container .resume .contact-me .card-container .card-3 .contact-circle,.main-container .resume .contact-me .card-container .card-4 .contact-circle{height:70px;width:70px;background-color:lightblue;border-radius:50%;vertical-align:middle;line-height:70px;text-align:center;margin-left:30%;margin-top:10%}.main-container .resume .contact-me .card-container .card-1 .contact-circle .fab,.main-container .resume .contact-me .card-container .card-1 .contact-circle .fas,.main-container .resume .contact-me .card-container .card-2 .contact-circle .fab,.main-container .resume .contact-me .card-container .card-2 .contact-circle .fas,.main-container .resume .contact-me .card-container .card-3 .contact-circle .fab,.main-container .resume .contact-me .card-container .card-3 .contact-circle .fas,.main-container .resume .contact-me .card-container .card-4 .contact-circle .fab,.main-container .resume .contact-me .card-container .card-4 .contact-circle .fas{margin-top:4px;color:#000}.main-container .resume .contact-me .card-container .card-1 .caption-1,.main-container .resume .contact-me .card-container .card-2 .caption-1,.main-container .resume .contact-me .card-container .card-3 .caption-1,.main-container .resume .contact-me .card-container .card-4 .caption-1{font-family:"Montserrat",sans-serif;color:#000;font-size:18px;font-weight:bold;text-align:center;padding-top:25px}.main-container .resume .contact-me .card-container .card-1 .caption-2,.main-container .resume .contact-me .card-container .card-2 .caption-2,.main-container .resume .contact-me .card-container .card-3 .caption-2,.main-container .resume .contact-me .card-container .card-4 .caption-2{font-family:"Montserrat",sans-serif;color:#000;font-size:12px;text-align:center}footer .footer-container{display:flex;flex-direction:row;justify-content:space-between;background-color:#8383c5;width:100%;height:400px;margin-top:15rem;padding:3rem}footer .footer-container .f-intro{width:33%}footer .footer-container .f-intro .f-intro-title{font-family:"Crimson Text",serif;font-size:25px;font-weight:bold}footer .footer-container .f-intro .f-caption{font-family:"Crimson Text",serif;font-size:20px;padding-top:1rem;padding-bottom:3rem;margin-top:20px}footer .footer-container .f-intro .f-social{padding-top:60px;padding-right:20px}footer .footer-container .f-intro .f-social i{color:black}footer .footer-container .f-links{width:20%}footer .footer-container .f-links .f-links-title{font-family:"Crimson Text",serif;font-size:25px;font-weight:bold;padding-left:20px}footer .footer-container .f-links .f-links-arrows #arrow-1 a,footer .footer-container .f-links .f-links-arrows #arrow-2 a,footer .footer-container .f-links .f-links-arrows #arrow-3 a,footer .footer-container .f-links .f-links-arrows #arrow-4 a{font-family:"Crimson Text",serif;font-size:22px;text-decoration:none;color:black}footer .footer-container .f-links .f-links-arrows #arrow-1 a i,footer .footer-container .f-links .f-links-arrows #arrow-2 a i,footer .footer-container .f-links .f-links-arrows #arrow-3 a i,footer .footer-container .f-links .f-links-arrows #arrow-4 a i{padding:20px}footer .footer-container .f-info{width:40%}footer .footer-container .f-info .f-info-title{font-family:"Crimson Text",serif;font-size:25px;font-weight:bold;padding-bottom:2rem}footer .footer-container .f-info .f-info-address,footer .footer-container .f-info .f-info-telephone,footer .footer-container .f-info .f-info-email{display:flex;flex-direction:row;justify-content:space-between;padding-top:30px}footer .footer-container .f-info .f-info-address i,footer .footer-container .f-info .f-info-telephone i,footer .footer-container .f-info .f-info-email i{width:10%}footer .footer-container .f-info .f-info-address p,footer .footer-container .f-info .f-info-telephone p,footer .footer-container .f-info .f-info-email p{font-family:"Crimson Text",serif;font-size:25px;font-weight:bold;width:90%;font-size:20px}@media (max-width: 1024px){.main-container .menu{margin-left:0}.resume-main .circle-container{visibility:hidden}.resume-main .contact-me .card-container{flex-wrap:wrap}.resume-main .contact-me .card-container .card-1,.resume-main .contact-me .card-container .card-2,.resume-main .contact-me .card-container .card-3,.resume-main .contact-me .card-container .card-4{width:300px;height:300px;margin-bottom:3rem}}@media (max-width: 768px){.main-container .menu{margin-left:0}.main-container .hello-header{width:575px}.main-container .hello-header .name{font-size:60px}.main-container .intro{display:none}.main-container .intro .right{padding:0}.main-container .intro .about-me{font-family:"Montserrat",sans-serif;font-size:40px;font-weight:bold;text-align:center}.main-container .intro .short-description{font-family:"Montserrat",sans-serif;color:#a4a4c1;line-height:2rem;padding:2rem}.main-container .intro .data{padding-left:2rem;padding-top:2rem}.main-container .intro.small{display:flex;flex-direction:column;padding:2rem}.main-container .intro.small .right{display:flex}.main-container .intro.small .right img{width:300px;height:370px}.main-container .resume .resume-main{padding-left:3rem}.main-container .resume .resume-main .resume-main-title{padding-left:3rem}.circle-container{visibility:hidden}.card-container{display:flex;flex-wrap:wrap;padding:5px}.card-container .card-1,.card-container .card-2{margin-bottom:3rem}.footer-container{width:768px}}
+
